@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>روابطي | My Links</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            direction: rtl;
+        }
+        
+        .container {
+            max-width: 500px;
+            margin: 40px auto;
+        }
+        
+        .profile {
+            text-align: center;
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-bottom: 20px;
+        }
+        
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #667eea;
+            margin-bottom: 15px;
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+        
+        .bio {
+            color: #666;
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+        
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        
+        .link-button {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: white;
+            padding: 18px 25px;
+            border-radius: 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: 600;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            border: 2px solid transparent;
+        }
+        
+        .link-button:hover {
+            transform: translateY(-3px);
+            border-color: #667eea;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+        
+        .link-icon {
+            width: 24px;
+            height: 24px;
+            font-size: 20px;
+        }
+        
+        .social {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+        
+        .social a {
+            color: #667eea;
+            font-size: 22px;
+            transition: 0.3s;
+        }
+        
+        .social a:hover {
+            color: #764ba2;
+        }
+        
+        .footer {
+            text-align: center;
+            color: white;
+            margin-top: 20px;
+            font-size: 14px;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <!-- ضع صورتك هنا -->
+            <img src="https://via.placeholder.com/120/667eea/ffffff?text=صورة" alt="LOGO.jpg" class="profile-img">
+            
+            <h1>𝙿𝚎𝚝𝚊𝚕 & 𝚂𝚘𝚞𝚕</h1>
+            <p class="bio">
+                وصف مختصر عنك أو عن صفحتك. يمكنك تعديل هذا النص كما تريد.
+            </p>
+            
+            <div class="links">
+                <!-- رابط 1 -->
+                <a href="https://example.com/link1" target="_blank" class="link-button">
+                    <span>🌐 الموقع الرسمي</span>
+                    <span class="link-icon">→</span>
+                </a>
+                
+                <!-- رابط 2 -->
+                <a href="https://example.com/link2" target="_blank" class="link-button">
+                    <span>📱 تحميل التطبيق</span>
+                    <span class="link-icon">→</span>
+                </a>
+                
+                <!-- رابط إنستجرام -->
+                <a href="https://instagram.com/petalandsoul.ae" target="_blank" class="link-button">
+                    <span>📷 إنستجرام - تابعني</span>
+                    <span class="link-icon">→</span>
+                </a>
+                
+                <!-- رابط 3 -->
+                <a href="https://example.com/link3" target="_blank" class="link-button">
+                    <span>🛒 المتجر الإلكتروني</span>
+                    <span class="link-icon">→</span>
+                </a>
+                
+                <!-- رابط 4 -->
+                <a href="https://wa.me/00971 50 659 9975" target="_blank" class="link-button">
+                    <span>💬 واتساب للتواصل</span>
+                    <span class="https://img.freepik.com/free-psd/whatsapp-call-icon-psd-editable_314999-3666.jpg?semt=ais_hybrid&w=740&q=80">→</span>
+                </a>
+                
+               
+            </div>
+            
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">📘</a>
+                <a href="https://twitter.com" target="_blank">🐦</a>
+                <a href="https://instagram.com/petalandsoul.ae" target="_blank">📷</a>
+                <a href="https://youtube.com" target="_blank">▶️</a>
+            </div>
+        </div>
+        
+        <div class="footer">
+            © 2024 جميع الحقوق محفوظة | QR Links Page
+        </div>
+    </div>
+</body>
+</html>
